@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>FetchSearchProductsList</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>searchCriteria</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>search=DVD&amp;customerReviewAverage&gt;=4</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>key</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>wwjsa9cmtmjafmzvhncfcc7g</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>pageNo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>1</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;?xml-stylesheet href="/v1/xsl/xml_pretty_printer.xsl" type="text/xsl"?&gt;&lt;products canonicalUrl="/v1/products(search=&amp;quot;DVD*&amp;quot;&amp;amp;customerReviewAverage&amp;gt;=4)?apiKey=wwjsa9cmtmjafmzvhncfcc7g" currentPage="1" from="1" partial="false" queryTime="0.022" to="10" total="17666" totalPages="1767" totalTime="0.072"&gt;
+   &lt;product&gt;
+      &lt;sku&gt;3541118&lt;/sku&gt;
+      &lt;productId&gt;2249655&lt;/productId&gt;
+      &lt;name&gt;"Weird Al" Yankovic: Live! - The Alpocalypse Tour (DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2011-03-08&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;true&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T19:03:04&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;12.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;12.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2015-05-06T19:03:04&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith&gt;
+         &lt;sku&gt;3689238&lt;/sku&gt;
+         &lt;sku&gt;7893345&lt;/sku&gt;
+         &lt;sku&gt;1471076&lt;/sku&gt;
+         &lt;sku&gt;4091413&lt;/sku&gt;
+         &lt;sku&gt;1934236&lt;/sku&gt;
+         &lt;sku&gt;9259526&lt;/sku&gt;
+         &lt;sku&gt;8614779&lt;/sku&gt;
+         &lt;sku&gt;6887997&lt;/sku&gt;
+         &lt;sku&gt;4566744&lt;/sku&gt;
+         &lt;sku&gt;4675362&lt;/sku&gt;
+      &lt;/frequentlyPurchasedWith&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm/&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/weird-al-yankovic-live-the-alpocalypse-tour-dvd/3541118.p?id=2249655&amp;amp;skuId=3541118&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/2249655/3541118/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=3541118&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;097368123243&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;2&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;5.0&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T19:03:04&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-05-07T18:19:29&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Usually leaves our warehouse in 1 business day&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T19:03:04&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2011-10-04&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;COMEDY/CO&lt;/subclass&gt;
+      &lt;subclassId&gt;1002&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio/&gt;
+      &lt;screenFormat/&gt;
+      &lt;lengthInMinutes&gt;86&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;NR&lt;/mpaaRating&gt;
+      &lt;plot&gt;This musical release from comedy musician Weird Al Yankovic captures a live performance by the funnyman, recorded during his 2011 Apocalypse Tour, during which Yankovic plays all his greatest hits, as well as a selection of new tunes. ~ Cammila Collar, Rovi&lt;/plot&gt;
+      &lt;studio&gt;UNKNOWN&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;2011&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/en_US/images/musicmoviegame/pdpimages/3541118.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/en_US/images/musicmoviegame/pdpimages/3541118s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Comedy&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+      &lt;videoChapters&gt;
+         &lt;chapter&gt;Disc #1 -- "Weird Al" Yankovic: Live! - The Alpocalypse Tour&lt;/chapter&gt;
+         &lt;chapter&gt;2. Polka Face [6:44]&lt;/chapter&gt;
+         &lt;chapter&gt;3. TMZ [7:56]&lt;/chapter&gt;
+         &lt;chapter&gt;4. Smells Like Nivana [3:24]&lt;/chapter&gt;
+         &lt;chapter&gt;5. Skipper Dan [1:08]&lt;/chapter&gt;
+         &lt;chapter&gt;6. Party In The CIA [6:17]&lt;/chapter&gt;
+         &lt;chapter&gt;7. CNR [2:26]&lt;/chapter&gt;
+         &lt;chapter&gt;8. Let Me Be Your Hog [3:35]&lt;/chapter&gt;
+         &lt;chapter&gt;9. Canadian Idiot [:00]&lt;/chapter&gt;
+         &lt;chapter&gt;10. Wanna Be Ur Lovr [3:16]&lt;/chapter&gt;
+         &lt;chapter&gt;11. Medley [3:32]&lt;/chapter&gt;
+         &lt;chapter&gt;12. Amish Paradise [3:00]&lt;/chapter&gt;
+         &lt;chapter&gt;13. Craigslist [6:23]&lt;/chapter&gt;
+         &lt;chapter&gt;14. Perform This Way [4:51]&lt;/chapter&gt;
+         &lt;chapter&gt;15. White &amp;amp; Nerdy [16:27]&lt;/chapter&gt;
+         &lt;chapter&gt;16. Fat [4:53]&lt;/chapter&gt;
+         &lt;chapter&gt;17. The Saga Begins [4:02]&lt;/chapter&gt;
+         &lt;chapter&gt;18. Yoda [:45]&lt;/chapter&gt;
+      &lt;/videoChapters&gt;
+      &lt;videoLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+      &lt;/videoLanguages&gt;
+      &lt;additionalFeatures&gt;
+         &lt;feature&gt;Music videos for "Perform This Way" and "Polka Face"! Extra Live Concert Performances&lt;/feature&gt;
+         &lt;feature/&gt;
+         &lt;feature&gt;(Frank's 2000-inch TV," "You Don't Love Me Anymore" and "You Make Me")&lt;/feature&gt;
+         &lt;feature&gt;A bunch of Al's Personal YouTube Videos&lt;/feature&gt;
+         &lt;feature/&gt;
+         &lt;feature&gt;cc&lt;/feature&gt;
+      &lt;/additionalFeatures&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;2728283&lt;/sku&gt;
+      &lt;productId&gt;2771641&lt;/productId&gt;
+      &lt;name&gt;'83 US Festival: Days 1-3 (DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2013-05-07&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;false&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T19:04:11&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;13.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;13.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2014-12-24T00:00:49&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm&gt;273999&lt;/salesRankLongTerm&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/83-us-festival-days-1-3-dvd/2728283.p?id=2771641&amp;amp;skuId=2728283&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/2771641/2728283/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=2728283&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;760137594697&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;1&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;4.0&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;true&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup:&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T19:04:11&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-07-02T09:29:27&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Backordered: Usually ships in 2-4 weeks&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-07-02T05:30:10&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2013-12-03&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;COMPACT DISC&lt;/class&gt;
+      &lt;classId&gt;77&lt;/classId&gt;
+      &lt;subclass&gt;MUSIC DVD&lt;/subclass&gt;
+      &lt;subclassId&gt;5793&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio/&gt;
+      &lt;screenFormat/&gt;
+      &lt;lengthInMinutes&gt;135&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating/&gt;
+      &lt;plot&gt;This musical release captures the best performances from the first three days of the 1983 Us Festival, featuring appearances by Divinyls, INXS, Judas Priest, Missing Persons, and more. ~ Cammila Collar, Rovi&lt;/plot&gt;
+      &lt;studio&gt;Mvd Visual&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;1983&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/2728/2728283.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/2728/2728283s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;true&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Music DVDs&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+      &lt;videoChapters&gt;
+         &lt;chapter&gt;Disc #1 -- '83 US Festival: Days 1-3&lt;/chapter&gt;
+         &lt;chapter&gt;1. Chapter 1 [2:22]&lt;/chapter&gt;
+         &lt;chapter&gt;2. Chapter 2 [2:45]&lt;/chapter&gt;
+         &lt;chapter&gt;3. Chapter 3 [:40]&lt;/chapter&gt;
+         &lt;chapter&gt;4. Chapter 4 [2:32]&lt;/chapter&gt;
+         &lt;chapter&gt;5. Chapter 5 [3:26]&lt;/chapter&gt;
+         &lt;chapter&gt;6. Chapter 6 [:28]&lt;/chapter&gt;
+         &lt;chapter&gt;7. Chapter 7 [5:36]&lt;/chapter&gt;
+         &lt;chapter&gt;8. Chapter 8 [7:27]&lt;/chapter&gt;
+         &lt;chapter&gt;9. Chapter 9 [5:34]&lt;/chapter&gt;
+         &lt;chapter&gt;10. Chapter 10 [4:45]&lt;/chapter&gt;
+         &lt;chapter&gt;11. Chapter 11 [4:40]&lt;/chapter&gt;
+         &lt;chapter&gt;12. Chapter 12 [4:06]&lt;/chapter&gt;
+         &lt;chapter&gt;1. Chapter 1&lt;/chapter&gt;
+         &lt;chapter&gt;2. Chapter 2&lt;/chapter&gt;
+         &lt;chapter&gt;3. Chapter 3&lt;/chapter&gt;
+         &lt;chapter&gt;4. Chapter 4&lt;/chapter&gt;
+         &lt;chapter&gt;5. Chapter 5&lt;/chapter&gt;
+         &lt;chapter&gt;6. Chapter 6&lt;/chapter&gt;
+         &lt;chapter&gt;7. Chapter 7&lt;/chapter&gt;
+         &lt;chapter&gt;8. Chapter 8&lt;/chapter&gt;
+         &lt;chapter&gt;9. Chapter 9&lt;/chapter&gt;
+         &lt;chapter&gt;1. Chapter 1 [1:39]&lt;/chapter&gt;
+         &lt;chapter&gt;2. Chapter 2 [2:46]&lt;/chapter&gt;
+         &lt;chapter&gt;3. Chapter 3 [5:41]&lt;/chapter&gt;
+         &lt;chapter&gt;4. Chapter 4 [4:32]&lt;/chapter&gt;
+         &lt;chapter&gt;5. Chapter 5 [5:11]&lt;/chapter&gt;
+         &lt;chapter&gt;6. Chapter 6 [4:48]&lt;/chapter&gt;
+         &lt;chapter&gt;7. Chapter 7 [5:31]&lt;/chapter&gt;
+         &lt;chapter&gt;8. Chapter 8 [4:39]&lt;/chapter&gt;
+         &lt;chapter&gt;9. Chapter 9 [5:25]&lt;/chapter&gt;
+         &lt;chapter&gt;10. Chapter 10 [4:09]&lt;/chapter&gt;
+      &lt;/videoChapters&gt;
+      &lt;videoLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+      &lt;/videoLanguages&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;18701967&lt;/sku&gt;
+      &lt;productId&gt;26007&lt;/productId&gt;
+      &lt;name&gt;'Twas the Night Before Christmas (DVD) (Deluxe Edition) (Remastered)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2010-03-09&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;true&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T18:43:25&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;13.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;13.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2015-01-04T00:01:19&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm/&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/twas-the-night-before-christmas-dvd-deluxe-edition-remastered/18701967.p?id=26007&amp;amp;skuId=18701967&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/26007/18701967/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=18701967&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;883929101207&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;2&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;5.0&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T18:43:25&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-07-01T08:00:19&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Usually leaves our warehouse in 1 business day&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T18:43:25&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2010-10-05&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;SEASONAL BUY&lt;/subclass&gt;
+      &lt;subclassId&gt;1415&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio&gt;1.33:1&lt;/aspectRatio&gt;
+      &lt;screenFormat/&gt;
+      &lt;lengthInMinutes&gt;24&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;NR&lt;/mpaaRating&gt;
+      &lt;plot&gt;When a local Junctionville newspaper prints an insulting letter about Santa Claus, Joshua Trundle and Father Mouse set out on a mission to let Old St. Nick know that he's truly appreciated, and convince him not to skip over their town this coming Christmas Eve. ~ Jason Buchanan, Rovi&lt;/plot&gt;
+      &lt;studio&gt;Warner Home Video&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;1974&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/1870/18701967.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/1870/18701967s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Holidays&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+      &lt;videoLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+      &lt;/videoLanguages&gt;
+      &lt;subtitleLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+         &lt;language&gt;Fre&lt;/language&gt;
+      &lt;/subtitleLanguages&gt;
+      &lt;additionalFeatures&gt;
+         &lt;feature&gt;Christmas: A global holiday&lt;/feature&gt;
+         &lt;feature&gt;Animated Comic Book&lt;/feature&gt;
+         &lt;feature&gt;Exploring Yuletide&lt;/feature&gt;
+         &lt;feature&gt;Traditions around the world&lt;/feature&gt;
+      &lt;/additionalFeatures&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;9576363&lt;/sku&gt;
+      &lt;productId&gt;2057001&lt;/productId&gt;
+      &lt;name&gt;(500) Days of Summer (DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2009-05-26&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;true&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T19:07:12&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;4.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;4.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2015-04-05T00:02:28&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith&gt;
+         &lt;sku&gt;7841231&lt;/sku&gt;
+         &lt;sku&gt;1061583&lt;/sku&gt;
+         &lt;sku&gt;1330879&lt;/sku&gt;
+         &lt;sku&gt;4614778&lt;/sku&gt;
+         &lt;sku&gt;4861037&lt;/sku&gt;
+         &lt;sku&gt;2834207&lt;/sku&gt;
+         &lt;sku&gt;2122254&lt;/sku&gt;
+      &lt;/frequentlyPurchasedWith&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm&gt;101510&lt;/salesRankLongTerm&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/500-days-of-summer-dvd/9576363.p?id=2057001&amp;amp;skuId=9576363&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/2057001/9576363/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=9576363&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;024543634621&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;85&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;4.4&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T19:07:12&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-07-02T09:29:01&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Usually leaves our warehouse in 1 business day&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T19:07:12&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2009-12-22&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;BUDGET&lt;/subclass&gt;
+      &lt;subclassId&gt;1005&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio/&gt;
+      &lt;screenFormat/&gt;
+      &lt;lengthInMinutes&gt;95&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;PG-13&lt;/mpaaRating&gt;
+      &lt;plot&gt;Joseph Gordon-Levitt and Zooey Deschanel star in director Marc Webb's wry, nonlinear romantic comedy about a man who falls head over heels for a woman who doesn't believe in love. Tom (Gordon-Levitt) is an aspiring architect who currently earns his living as a greeting card writer. Upon encountering his boss' beautiful new secretary, Summer (Deschanel), Tom discovers that the pair have plenty in common despite the fact that she's seemingly out of his league; for starters, they both love the Smiths, and they're both fans of surrealist artist Magritte. Before long Tom is smitten. All he can think about is Summer. Tom believes deeply in the concept of soul mates, and he's finally found his. Unfortunately for Tom, Summer sees true love as the stuff of fairy tales, and isn't looking for romance. Undaunted and undeterred by his breezy lover's casual stance on relationships, Tom summons all of his might and courage to pursue Summer and convince her that their love is real. ~ Jason Buchanan, Rovi&lt;/plot&gt;
+      &lt;studio&gt;20th Century Fox&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;2009&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/9576/9576363.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/9576/9576363s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Comedy&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;24706159&lt;/sku&gt;
+      &lt;productId&gt;2057001&lt;/productId&gt;
+      &lt;name&gt;(500) Days of Summer (DVD) (Spanish Version)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2013-08-27&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;false&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T17:41:14&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;5.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;5.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2014-08-17T00:01:14&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm/&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/500-days-of-summer-dvd-spanish-version/24706159.p?id=2057001&amp;amp;skuId=24706159&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/2057001/24706159/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=24706159&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;024543943242&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;85&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;4.4&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T17:41:14&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-05-30T03:25:56&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Usually leaves our warehouse in 1 business day&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T17:41:14&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2014-03-25&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;COMEDY/CO&lt;/subclass&gt;
+      &lt;subclassId&gt;1002&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio/&gt;
+      &lt;screenFormat/&gt;
+      &lt;lengthInMinutes&gt;95&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;PG-13&lt;/mpaaRating&gt;
+      &lt;plot&gt;Joseph Gordon-Levitt and Zooey Deschanel star in director Marc Webb's wry, nonlinear romantic comedy about a man who falls head over heels for a woman who doesn't believe in love. Tom (Gordon-Levitt) is an aspiring architect who currently earns his living as a greeting card writer. Upon encountering his boss' beautiful new secretary, Summer (Deschanel), Tom discovers that the pair have plenty in common despite the fact that she's seemingly out of his league; for starters, they both love the Smiths, and they're both fans of surrealist artist Magritte. Before long Tom is smitten. All he can think about is Summer. Tom believes deeply in the concept of soul mates, and he's finally found his. Unfortunately for Tom, Summer sees true love as the stuff of fairy tales, and isn't looking for romance. Undaunted and undeterred by his breezy lover's casual stance on relationships, Tom summons all of his might and courage to pursue Summer and convince her that their love is real. ~ Jason Buchanan, Rovi&lt;/plot&gt;
+      &lt;studio&gt;20th Century Fox&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;2009&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/2470/24706159.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/2470/24706159s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Comedy&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;17071936&lt;/sku&gt;
+      &lt;productId&gt;1885969&lt;/productId&gt;
+      &lt;name&gt;(DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2008-02-19&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;true&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T18:28:43&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;14.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;14.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2008-06-25T15:09:13&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm/&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/dvd/17071936.p?id=1885969&amp;amp;skuId=17071936&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/1885969/17071936/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=17071936&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;625828227103&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;2&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;5.0&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T18:28:43&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-05-30T11:30:18&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Usually leaves our warehouse in 1 business day&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T18:28:43&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2008-09-16&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;COMEDY/CO&lt;/subclass&gt;
+      &lt;subclassId&gt;1002&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio&gt;1.78:1&lt;/aspectRatio&gt;
+      &lt;screenFormat&gt;Enhanced Widescreen for 16x9 TV&lt;/screenFormat&gt;
+      &lt;lengthInMinutes&gt;90&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;R&lt;/mpaaRating&gt;
+      &lt;plot&gt;A bored suburban husband finds his affair with a high-school babysitter fast snowballing out of control in this black comedy from first-time screenwriter/director David Ross. Shirley (Katherine Waterston) is a brainy honors student who is always thinking about the future, and works part-time as a babysitter in order to save up for college. Among Shirley's regular charges are spirited youngsters Adam and Mikey, the offspring of respected father Michael (John Leguizamo) and his pretty wife, Gail (Cynthia Nixon). Shirley has always had an innocent crush on Michael, but one night after her regular shift, things take a serious turn when the pair sneaks a furtive kiss. Lately Michael has become noticeably depressed by the suburban routine, longing for the days before family responsibility weighed him down and his wife turned into the typical minivan-driving soccer mom. Shirley's kiss makes Michael feel alive again, and as a result he gives her a substantial tip that night. Before long, however, a fleeting kiss has turned into a full-fledged affair, with Michael and Shirley using the babysitting shifts as cover. When Michael's married friends catch wind of his extramarital exploits, they, too, express the want for a babysitter who is willing to earn a healthy tip. Recognizing the potential for profit in such a situation, Shirley soon assumes the role of teenage madam -- matching up her high-school friends with otherwise upstanding men who have grown bored with married life. Of course, Shirley isn't above skimming a bit of the profits for her college fund, but then again it's only a matter of time before their carefully crafted cover is blown. ~ Jason Buchanan, Rovi&lt;/plot&gt;
+      &lt;studio&gt;UNKNOWN&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;2007&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/1707/17071936.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/1707/17071936s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Drama&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+      &lt;videoChapters&gt;
+         &lt;chapter&gt;Disc #1 -- The Babysitters&lt;/chapter&gt;
+         &lt;chapter&gt;1. Chapter 1 [4:51]&lt;/chapter&gt;
+         &lt;chapter&gt;2. Chapter 2 [5:11]&lt;/chapter&gt;
+         &lt;chapter&gt;3. Chapter 3 [5:14]&lt;/chapter&gt;
+         &lt;chapter&gt;4. Chapter 4 [4:47]&lt;/chapter&gt;
+         &lt;chapter&gt;5. Chapter 5 [6:16]&lt;/chapter&gt;
+         &lt;chapter&gt;6. Chapter 6 [5:27]&lt;/chapter&gt;
+         &lt;chapter&gt;7. Chapter 7 [6:00]&lt;/chapter&gt;
+         &lt;chapter&gt;8. Chapter 8 [5:02]&lt;/chapter&gt;
+         &lt;chapter&gt;9. Chapter 9 [5:56]&lt;/chapter&gt;
+         &lt;chapter&gt;10. Chapter 10 [5:08]&lt;/chapter&gt;
+         &lt;chapter&gt;11. Chapter 11 [2:45]&lt;/chapter&gt;
+         &lt;chapter&gt;12. Chapter 12 [8:47]&lt;/chapter&gt;
+         &lt;chapter&gt;13. Chapter 13 [4:09]&lt;/chapter&gt;
+         &lt;chapter&gt;14. Chapter 14 [2:57]&lt;/chapter&gt;
+         &lt;chapter&gt;15. Chapter 15 [4:36]&lt;/chapter&gt;
+         &lt;chapter&gt;16. Chapter 16 [5:11]&lt;/chapter&gt;
+      &lt;/videoChapters&gt;
+      &lt;videoLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+         &lt;language&gt;Fre&lt;/language&gt;
+         &lt;language&gt;Spa&lt;/language&gt;
+      &lt;/videoLanguages&gt;
+      &lt;additionalFeatures&gt;
+         &lt;feature&gt;Digital copy of the film&lt;/feature&gt;
+         &lt;feature&gt;Filmmaker &amp;amp; actor commentary featuring writer/director David Ross &amp;amp; Katherine Waterston&lt;/feature&gt;
+         &lt;feature&gt;Making the Babysitters featuring exclusive interviews with John Leguizamo, Katherine Waterston &amp;amp; writer/director David Ross&lt;/feature&gt;
+      &lt;/additionalFeatures&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;15783528&lt;/sku&gt;
+      &lt;productId&gt;20972&lt;/productId&gt;
+      &lt;name&gt;(DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2007-03-27&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;true&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T18:10:16&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;14.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;14.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2007-07-28T00:10:50&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm/&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/dvd/15783528.p?id=20972&amp;amp;skuId=15783528&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/20972/15783528/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=15783528&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;089598500284&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;27&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;4.8&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;true&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T18:10:16&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-05-30T16:15:20&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;false&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Not Available&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T18:10:16&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2007-10-23&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;SEASONAL BUY&lt;/subclass&gt;
+      &lt;subclassId&gt;1415&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio/&gt;
+      &lt;screenFormat/&gt;
+      &lt;lengthInMinutes&gt;86&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;NR&lt;/mpaaRating&gt;
+      &lt;plot&gt;Widely considered to be the definitive of the many film versions of Charles Dickens' classic novel is this 1951 British adaptation, starring Alastair Sim (entitled "Scrooge" in its U.K. release). Sim plays Ebenezer Scrooge, a London miser who, despite his wealth, refuses to make charitable contributions and treats his sole employee, Bob Cratchit, as an indentured servant. On Christmas Eve, Scrooge is visited by the ghost of his late business partner, Jacob Marley, who was as selfish as Scrooge in life and has been condemned to an eternity of wandering the Earth in shackles. Marley informs Scrooge that he's to receive a trio of spirits that night who will take him on a journey through Christmases Past, Present, and Yet to Come. As Scrooge encounters each apparition, he is taken on a tour of his life and realizes what a wretch he is, transformed by greed from an idealistic youth into an embittered ogre. Infused with a new, cheery outlook, Scrooge sets about earning his redemption. ~ Karl Williams, Rovi&lt;/plot&gt;
+      &lt;studio&gt;VCI Video&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;1951&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/nonsku/default_movies_l.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/nonsku/default_movies_s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Holidays&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;NotOrderable&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;24246534&lt;/sku&gt;
+      &lt;productId&gt;2986518&lt;/productId&gt;
+      &lt;name&gt;(DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2013-08-13&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;false&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T18:45:44&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;24.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;24.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2014-01-20T12:05:30&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm/&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/dvd/24246534.p?id=2986518&amp;amp;skuId=24246534&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/2986518/24246534/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=24246534&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;400242465344&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;191&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;4.5&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;true&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T18:45:44&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-06-24T09:00:21&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Backordered: Usually ships in 2-4 weeks&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T20:49:18&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2014-03-11&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;ACTION/AC&lt;/subclass&gt;
+      &lt;subclassId&gt;1001&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio/&gt;
+      &lt;screenFormat/&gt;
+      &lt;lengthInMinutes&gt;100&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;R&lt;/mpaaRating&gt;
+      &lt;plot&gt;A former DEA agent (Jason Statham) moves to a small town with his daughter to get away from the dangers of the job, only to be terrorized by a meth-head gang leader (James Franco) in this action thriller written by Sylvester Stallone and directed by Gary Fleder. Kate Bosworth and Winona Ryder co-star. ~ Jeremy Wheeler, Rovi&lt;/plot&gt;
+      &lt;studio&gt;Universal Studios&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;2013&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/nonsku/default_movies_l.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/nonsku/default_movies_s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Action and Adventure&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;3582475&lt;/sku&gt;
+      &lt;productId&gt;47168&lt;/productId&gt;
+      &lt;name&gt;*batteries not included (DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;1998-08-18&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;true&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T18:33:43&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;5.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;5.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2015-05-06T18:33:43&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm&gt;101698&lt;/salesRankMediumTerm&gt;
+      &lt;salesRankLongTerm&gt;95051&lt;/salesRankLongTerm&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/batteries-not-included-dvd/3582475.p?id=47168&amp;amp;skuId=3582475&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/47168/3582475/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=3582475&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;025192052026&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;6&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;5.0&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T18:33:43&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-07-02T09:26:51&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Usually leaves our warehouse in 1 business day&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T18:33:43&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;1999-03-16&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;DVD SOFTWARE&lt;/class&gt;
+      &lt;classId&gt;126&lt;/classId&gt;
+      &lt;subclass&gt;COMEDY/CO&lt;/subclass&gt;
+      &lt;subclassId&gt;1002&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio&gt;1.85:1&lt;/aspectRatio&gt;
+      &lt;screenFormat&gt;Enhanced Widescreen for 16x9 TV&lt;/screenFormat&gt;
+      &lt;lengthInMinutes&gt;107&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating&gt;PG&lt;/mpaaRating&gt;
+      &lt;plot&gt;Hume Cronyn and Jessica Tandy are among the impoverished residents of a slum tenement threatened with demolition by evil land developers. Only a miracle can save Cronyn, Tandy, and their friends -- and that miracle manifests itself in the form of a "family" of extraterrestrial flying saucers, who need the electricity provided by the tenement to survive. The grateful humanized spaceships repay their earthbound hosts by doing battle with the villains' henchmen. When the building is engulfed in flames, all seems lost, but the aliens have a few more tricks up their metallic sleeves. ~ Hal Erickson, Rovi&lt;/plot&gt;
+      &lt;studio&gt;Mc A Home Video&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;1987&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/3582/3582475.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/3582/3582475s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Sci-Fi&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+      &lt;videoChapters&gt;
+         &lt;chapter&gt;Side #1 -- Widescreen Version&lt;/chapter&gt;
+         &lt;chapter&gt;0. Chapter List&lt;/chapter&gt;
+         &lt;chapter&gt;1. Main Tiltles [:16]&lt;/chapter&gt;
+         &lt;chapter&gt;2. The Wrecking Crew [2:43]&lt;/chapter&gt;
+         &lt;chapter&gt;3. Time to Quit [7:45]&lt;/chapter&gt;
+         &lt;chapter&gt;4. Sunset [1:55]&lt;/chapter&gt;
+         &lt;chapter&gt;5. Night Visitors [5:33]&lt;/chapter&gt;
+         &lt;chapter&gt;6. The Little Guys [3:28]&lt;/chapter&gt;
+         &lt;chapter&gt;7. Carlos' Big Shock [4:24]&lt;/chapter&gt;
+         &lt;chapter&gt;8. The Big Night [3:03]&lt;/chapter&gt;
+         &lt;chapter&gt;9. Back in Business [4:38]&lt;/chapter&gt;
+         &lt;chapter&gt;10. The Miracle Cure [4:49]&lt;/chapter&gt;
+         &lt;chapter&gt;11. Mr. Lacey [2:54]&lt;/chapter&gt;
+         &lt;chapter&gt;12. Alive &amp;amp; Kicking [8:09]&lt;/chapter&gt;
+         &lt;chapter&gt;13. The Hatchet Man [1:34]&lt;/chapter&gt;
+         &lt;chapter&gt;14. The Lost Saucers [5:53]&lt;/chapter&gt;
+         &lt;chapter&gt;15. Letting Go [:15]&lt;/chapter&gt;
+         &lt;chapter&gt;16. The Fire Bomb [5:57]&lt;/chapter&gt;
+         &lt;chapter&gt;17. Help From Above [1:21]&lt;/chapter&gt;
+         &lt;chapter&gt;18. End Titles [1:46]&lt;/chapter&gt;
+      &lt;/videoChapters&gt;
+      &lt;videoLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+         &lt;language&gt;Fre&lt;/language&gt;
+      &lt;/videoLanguages&gt;
+      &lt;subtitleLanguages&gt;
+         &lt;language&gt;Spa&lt;/language&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+      &lt;/subtitleLanguages&gt;
+      &lt;additionalFeatures&gt;
+         &lt;feature&gt;Production notes&lt;/feature&gt;
+         &lt;feature&gt;Cast and filmmakers biographies&lt;/feature&gt;
+         &lt;feature&gt;Film highlights&lt;/feature&gt;
+         &lt;feature&gt;Theatrical trailer&lt;/feature&gt;
+         &lt;feature&gt;Web links&lt;/feature&gt;
+      &lt;/additionalFeatures&gt;
+   &lt;/product&gt;
+   &lt;product&gt;
+      &lt;sku&gt;4360373&lt;/sku&gt;
+      &lt;productId&gt;62771&lt;/productId&gt;
+      &lt;name&gt;*NSYNC: Popodyssey Live (DVD)&lt;/name&gt;
+      &lt;source&gt;bestbuy&lt;/source&gt;
+      &lt;type&gt;Movie&lt;/type&gt;
+      &lt;startDate&gt;2001-09-25&lt;/startDate&gt;
+      &lt;new&gt;false&lt;/new&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;lowPriceGuarantee&gt;true&lt;/lowPriceGuarantee&gt;
+      &lt;activeUpdateDate&gt;2015-05-06T18:06:33&lt;/activeUpdateDate&gt;
+      &lt;regularPrice&gt;9.99&lt;/regularPrice&gt;
+      &lt;salePrice&gt;9.99&lt;/salePrice&gt;
+      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;planPrice/&gt;
+      &lt;priceWithPlan/&gt;
+      &lt;priceRestriction/&gt;
+      &lt;priceUpdateDate&gt;2015-05-06T18:06:33&lt;/priceUpdateDate&gt;
+      &lt;digital&gt;false&lt;/digital&gt;
+      &lt;preowned&gt;false&lt;/preowned&gt;
+      &lt;outletCenter/&gt;
+      &lt;secondaryMarket/&gt;
+      &lt;frequentlyPurchasedWith/&gt;
+      &lt;relatedProducts/&gt;
+      &lt;salesRankShortTerm/&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm/&gt;
+      &lt;bestSellingRank/&gt;
+      &lt;url&gt;http://www.bestbuy.com/site/nsync-popodyssey-live-dvd/4360373.p?id=62771&amp;amp;skuId=4360373&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&lt;/url&gt;
+      &lt;spin360Url/&gt;
+      &lt;mobileUrl&gt;http://m.bestbuy.com/r/62771/4360373/&lt;/mobileUrl&gt;
+      &lt;affiliateUrl/&gt;
+      &lt;addToCartUrl&gt;http://www.bestbuy.com/site/olspage.jsp?id=pcmcat152200050035&amp;amp;type=category&amp;amp;cmp=RMX&amp;amp;ky=2aogsGC3m070wCxNODQjm1FZH6RP5yOmb&amp;amp;qvsids=4360373&lt;/addToCartUrl&gt;
+      &lt;affiliateAddToCartUrl/&gt;
+      &lt;linkShareAffiliateUrl/&gt;
+      &lt;linkShareAffiliateAddToCartUrl/&gt;
+      &lt;upc&gt;012414177896&lt;/upc&gt;
+      &lt;productTemplate/&gt;
+      &lt;categoryPath&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0600000&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat02015&lt;/id&gt;
+            &lt;name&gt;Movies &amp;amp; TV Shows&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/categoryPath&gt;
+      &lt;lists/&gt;
+      &lt;customerReviewCount&gt;1&lt;/customerReviewCount&gt;
+      &lt;customerReviewAverage&gt;5.0&lt;/customerReviewAverage&gt;
+      &lt;customerTopRated&gt;false&lt;/customerTopRated&gt;
+      &lt;format&gt;DVD&lt;/format&gt;
+      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShippingEligible&gt;true&lt;/freeShippingEligible&gt;
+      &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
+      &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
+      &lt;inStoreAvailabilityUpdateDate&gt;2015-05-06T18:06:33&lt;/inStoreAvailabilityUpdateDate&gt;
+      &lt;itemUpdateDate&gt;2015-06-17T09:29:01&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;onlineAvailabilityText&gt;Shipping: Usually leaves our warehouse in 1 business day&lt;/onlineAvailabilityText&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2015-05-06T18:06:33&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;releaseDate&gt;2002-04-23&lt;/releaseDate&gt;
+      &lt;shippingCost&gt;2.99&lt;/shippingCost&gt;
+      &lt;shipping&gt;
+         &lt;ground&gt;2.99&lt;/ground&gt;
+         &lt;secondDay&gt;11.99&lt;/secondDay&gt;
+         &lt;nextDay&gt;14.99&lt;/nextDay&gt;
+         &lt;vendorDelivery/&gt;
+      &lt;/shipping&gt;
+      &lt;specialOrder&gt;false&lt;/specialOrder&gt;
+      &lt;shortDescription/&gt;
+      &lt;class&gt;COMPACT DISC&lt;/class&gt;
+      &lt;classId&gt;77&lt;/classId&gt;
+      &lt;subclass&gt;MUSIC DVD&lt;/subclass&gt;
+      &lt;subclassId&gt;5793&lt;/subclassId&gt;
+      &lt;department&gt;VIDEO/COMPACT DISC&lt;/department&gt;
+      &lt;departmentId&gt;8&lt;/departmentId&gt;
+      &lt;productFamilies/&gt;
+      &lt;aspectRatio/&gt;
+      &lt;screenFormat&gt;Enhanced Widescreen for 16x9 TV&lt;/screenFormat&gt;
+      &lt;lengthInMinutes&gt;83&lt;/lengthInMinutes&gt;
+      &lt;mpaaRating/&gt;
+      &lt;plot&gt;Documenting mega-star boy-band *NSYNC's 2001 Popodyssey tour, Jive Records presents *NSYNC: Popodyssey Live. In addition to live performances of some of their most popular songs, the band is also featured backstage for a behind-the-scenes look what Justin, JC, Lance, Joey, and Chris are like when they aren't surrounded by thousands of screaming fans. Some of the songs performed include "Pop," "Tearin' Up My Heart"/"I Want You Back" medley, "God Must Have Spent a Little More Time on You," "Gone, "It's Gonna Be Me," and "Bye Bye Bye." ~ Matthew Tobey, Rovi&lt;/plot&gt;
+      &lt;studio&gt;Jive&lt;/studio&gt;
+      &lt;theatricalReleaseDate&gt;2001&lt;/theatricalReleaseDate&gt;
+      &lt;image&gt;http://img.bbystatic.com/BestBuy_US/images/products/4360/4360373.jpg&lt;/image&gt;
+      &lt;largeFrontImage/&gt;
+      &lt;mediumImage/&gt;
+      &lt;thumbnailImage&gt;http://img.bbystatic.com/BestBuy_US/images/products/4360/4360373s.jpg&lt;/thumbnailImage&gt;
+      &lt;largeImage/&gt;
+      &lt;alternateViewsImage/&gt;
+      &lt;angleImage/&gt;
+      &lt;backViewImage/&gt;
+      &lt;energyGuideImage/&gt;
+      &lt;leftViewImage/&gt;
+      &lt;accessoriesImage/&gt;
+      &lt;remoteControlImage/&gt;
+      &lt;rightViewImage/&gt;
+      &lt;topViewImage/&gt;
+      &lt;inStorePickup&gt;false&lt;/inStorePickup&gt;
+      &lt;friendsAndFamilyPickup&gt;false&lt;/friendsAndFamilyPickup&gt;
+      &lt;homeDelivery&gt;false&lt;/homeDelivery&gt;
+      &lt;quantityLimit&gt;3&lt;/quantityLimit&gt;
+      &lt;fulfilledBy&gt;BestBuy.com&lt;/fulfilledBy&gt;
+      &lt;bundledIn/&gt;
+      &lt;genre&gt;Music DVDs&lt;/genre&gt;
+      &lt;dollarSavings&gt;0.00&lt;/dollarSavings&gt;
+      &lt;percentSavings&gt;0.0&lt;/percentSavings&gt;
+      &lt;orderable&gt;Available&lt;/orderable&gt;
+      &lt;shippingWeight&gt;0.25&lt;/shippingWeight&gt;
+      &lt;marketplace&gt;false&lt;/marketplace&gt;
+      &lt;listingId/&gt;
+      &lt;sellerId/&gt;
+      &lt;shippingRestrictions/&gt;
+      &lt;videoChapters&gt;
+         &lt;chapter&gt;Side #1 --&lt;/chapter&gt;
+         &lt;chapter&gt;1. Video Intro [2:25]&lt;/chapter&gt;
+         &lt;chapter&gt;2. Dirty Pop [3:29]&lt;/chapter&gt;
+         &lt;chapter&gt;3. Tearin' Up My Heart [1:13]&lt;/chapter&gt;
+         &lt;chapter&gt;4. I Want U Back [1:14]&lt;/chapter&gt;
+         &lt;chapter&gt;5. Got Must Have Spent a Little More Time on You [3:42]&lt;/chapter&gt;
+         &lt;chapter&gt;6. Just the Two of Us [4:20]&lt;/chapter&gt;
+         &lt;chapter&gt;7. Space Cowboy Video [1:05]&lt;/chapter&gt;
+         &lt;chapter&gt;8. Space Cowboy [5:05]&lt;/chapter&gt;
+         &lt;chapter&gt;9. Promise [4:23]&lt;/chapter&gt;
+         &lt;chapter&gt;10. Gone Video [1:17]&lt;/chapter&gt;
+         &lt;chapter&gt;11. Gone (Mint Condition) [4:32]&lt;/chapter&gt;
+         &lt;chapter&gt;12. Toy Episode [1:23]&lt;/chapter&gt;
+         &lt;chapter&gt;13. It's Gonna Be Me [5:32]&lt;/chapter&gt;
+         &lt;chapter&gt;14. See Right Through You [3:08]&lt;/chapter&gt;
+         &lt;chapter&gt;15. Up Against the Wall [3:54]&lt;/chapter&gt;
+         &lt;chapter&gt;16. Celebrity Video [1:13]&lt;/chapter&gt;
+         &lt;chapter&gt;17. Celebrity [:09]&lt;/chapter&gt;
+         &lt;chapter&gt;18. Something Like You [4:44]&lt;/chapter&gt;
+         &lt;chapter&gt;19. Falling [3:14]&lt;/chapter&gt;
+         &lt;chapter&gt;20. Selfish [1:53]&lt;/chapter&gt;
+         &lt;chapter&gt;21. No Strings Attached [3:14]&lt;/chapter&gt;
+         &lt;chapter&gt;22. Game Over [5:05]&lt;/chapter&gt;
+         &lt;chapter&gt;23. Bye Bye Bye [5:33]&lt;/chapter&gt;
+      &lt;/videoChapters&gt;
+      &lt;videoLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+      &lt;/videoLanguages&gt;
+      &lt;subtitleLanguages&gt;
+         &lt;language&gt;Eng&lt;/language&gt;
+      &lt;/subtitleLanguages&gt;
+      &lt;additionalFeatures&gt;
+         &lt;feature&gt;The history of *NSYNC&lt;/feature&gt;
+         &lt;feature&gt;Behind the scenes: the set build and the wardrobe&lt;/feature&gt;
+         &lt;feature&gt;Interviews with Justin, Joey, JC, Lance, and Chris&lt;/feature&gt;
+         &lt;feature&gt;Photo gallery&lt;/feature&gt;
+         &lt;feature&gt;Find the Easter egg and discover the mystery of the show's opening&lt;/feature&gt;
+         &lt;feature&gt;5.1 Surround sound in Dolby Digital&lt;/feature&gt;
+      &lt;/additionalFeatures&gt;
+   &lt;/product&gt;
+&lt;/products&gt;
+</outtemplate>
+        <outTemplateHeader>Date: Thu, 02 Jul 2015 17:53:05 GMT
+Content-Length: 59750
+X-Mashery-Responder: prod-j-worker-atl-03.mashery.com
+Content-Type: text/xml; charset=UTF-8
+Server: thin 1.6.1 codename Death Proof
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>products</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//products </source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>totalPages</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//products/@totalPages</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>currentPage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//products/@currentPage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>sku</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/sku</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>name</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>number</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>regularPrice</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/regularPrice</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>number</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>salePrice</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/salePrice</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>boolean</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>onSale</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/onSale</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>customerReviewAverage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/customerReviewAverage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>thumbnailImage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/thumbnailImage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>boolean</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>new</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>product/new</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://api.remix.bestbuy.com/v1/products($searchCriteria)?apiKey=$key&amp;page=$pageNo</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

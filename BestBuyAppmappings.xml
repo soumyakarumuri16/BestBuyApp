@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="BestBuyApp" name="BestBuyApp">
+    <container isflex="false" displayname="Popup" id="hdrBestBuyLogo" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="ftrAppMenu" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="mapPinInfo" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmHome" type="form">
+        <component displayname="TextBox2" id="tbxSearch" type="textbox2"/>
+        <component displayname="ListBox" id="lstSearchFilter" type="listbox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmProductDetail" type="form"/>
+    <container isflex="false" displayname="Form" id="frmProductImages" type="form">
+        <component displayname="ComboBox" id="cmbProductImages" type="combobox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmProductsList" type="form">
+        <component displayname="ComboBox" id="cmbPagination" type="combobox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmShoppingCart" type="form"/>
+    <container isflex="false" displayname="Form" id="frmStores" type="form">
+        <component displayname="TextBox2" id="tbxSearch" type="textbox2"/>
+        <component displayname="Map" id="mapStores" type="map">
+            <attributes datatype="string" name="key" platform="general" value="AIzaSyCoaGTuLwBwUKP6y7w-yy0ApFkVUUmvCKA"/>
+        </component>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

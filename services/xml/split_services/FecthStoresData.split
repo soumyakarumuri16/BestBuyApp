@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>FecthStoresData</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>searchCriteria</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>region=tx</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>key</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>wwjsa9cmtmjafmzvhncfcc7g</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;?xml-stylesheet href="/v1/xsl/xml_pretty_printer.xsl" type="text/xsl"?&gt;&lt;stores canonicalUrl="/v1/stores(region=&amp;quot;tx&amp;quot;)?apiKey=wwjsa9cmtmjafmzvhncfcc7g" currentPage="1" from="1" partial="false" queryTime="0.008" to="10" total="160" totalPages="16" totalTime="0.030"&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;1780&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Allen&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Allen&lt;/longName&gt;
+      &lt;address&gt;190 E Stacy Rd &lt;/address&gt;
+      &lt;address2&gt;Bldg 3000&lt;/address2&gt;
+      &lt;city&gt;Allen&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75002&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;33.1267&lt;/lat&gt;
+      &lt;lng&gt;-96.65549&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Apple Shop&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Samsung Experience&lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+         &lt;service&gt;Hablamos Español&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;469-675-8924&lt;/phone&gt;
+      &lt;postalCode&gt;75002&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;1038&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Flower Mound&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Flower Mound&lt;/longName&gt;
+      &lt;address&gt;6060 Long Prairie Rd&lt;/address&gt;
+      &lt;address2/&gt;
+      &lt;city&gt;Flower Mound&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75028&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;33.06926&lt;/lat&gt;
+      &lt;lng&gt;-97.080109&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Apple Shop&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Samsung Experience Shop&lt;/service&gt;
+         &lt;service&gt;LG Experience &lt;/service&gt;
+         &lt;service&gt;Magnolia Home Theater&lt;/service&gt;
+         &lt;service&gt;Sony Experience &lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;972-874-0965&lt;/phone&gt;
+      &lt;postalCode&gt;75028&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;1773&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Eldorado Pkwy&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Eldorado Pkwy&lt;/longName&gt;
+      &lt;address&gt;5299 Eldorado Pkwy&lt;/address&gt;
+      &lt;address2/&gt;
+      &lt;city&gt;Frisco&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75034&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;33.17477&lt;/lat&gt;
+      &lt;lng&gt;-96.83974&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Apple Shop&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Samsung Experience&lt;/service&gt;
+         &lt;service&gt;LG Experience &lt;/service&gt;
+         &lt;service&gt;Magnolia Home Theater&lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+         &lt;service&gt;Hablamos Español&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;214-872-2079&lt;/phone&gt;
+      &lt;postalCode&gt;75034&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;180&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Frisco&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Frisco&lt;/longName&gt;
+      &lt;address&gt;3333 Preston Rd #200&lt;/address&gt;
+      &lt;address2/&gt;
+      &lt;city&gt;Frisco&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75034&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;33.108253&lt;/lat&gt;
+      &lt;lng&gt;-96.807182&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Windows Store&lt;/service&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Pacific Kitchen &amp;amp; Home&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Camera Experience Shop &lt;/service&gt;
+         &lt;service&gt;Apple Shop&lt;/service&gt;
+         &lt;service&gt;Samsung Experience&lt;/service&gt;
+         &lt;service&gt;LG Experience &lt;/service&gt;
+         &lt;service&gt;Magnolia Design Center &lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;972-712-3939&lt;/phone&gt;
+      &lt;postalCode&gt;75034&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;1412&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Garland&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Garland&lt;/longName&gt;
+      &lt;address&gt;3171 N George Bush Fwy&lt;/address&gt;
+      &lt;address2/&gt;
+      &lt;city&gt;Garland&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75040&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;32.945286&lt;/lat&gt;
+      &lt;lng&gt;-96.613983&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Apple Shop&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Hablamos Español&lt;/service&gt;
+         &lt;service&gt;Samsung Experience Shop&lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+         &lt;service&gt;Magnolia Home Theater&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;972-530-6818&lt;/phone&gt;
+      &lt;postalCode&gt;75040&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;205&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Irving&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Irving&lt;/longName&gt;
+      &lt;address&gt;3915 W Airport Fwy&lt;/address&gt;
+      &lt;address2&gt;Irving Market Center&lt;/address2&gt;
+      &lt;city&gt;Irving&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75062&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;32.838085&lt;/lat&gt;
+      &lt;lng&gt;-97.004326&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Hablamos Español&lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+         &lt;service&gt;Samsung Experience Shop&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;972-258-0001&lt;/phone&gt;
+      &lt;postalCode&gt;75062&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;1032&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;North Irving&lt;/name&gt;
+      &lt;longName&gt;Best Buy - North Irving&lt;/longName&gt;
+      &lt;address&gt;1900 Market Place Blvd&lt;/address&gt;
+      &lt;address2/&gt;
+      &lt;city&gt;Irving&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75063&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;32.920174&lt;/lat&gt;
+      &lt;lng&gt;-96.972069&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Hablamos Español&lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+         &lt;service&gt;Magnolia Home Theater&lt;/service&gt;
+         &lt;service&gt;Samsung Experience Shop&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;972-910-0330&lt;/phone&gt;
+      &lt;postalCode&gt;75063&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;2898&lt;/storeId&gt;
+      &lt;storeType&gt;Mobile&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Best Buy Mobile - Vista Ridge Mall&lt;/name&gt;
+      &lt;longName&gt;Best Buy Mobile - Vista Ridge Mall&lt;/longName&gt;
+      &lt;address&gt;2401 S Stemmons Fwy&lt;/address&gt;
+      &lt;address2&gt;Ste 1324&lt;/address2&gt;
+      &lt;city&gt;Lewisville&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75067&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;33.002023&lt;/lat&gt;
+      &lt;lng&gt;-96.971172&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-6; Sun: 12-6&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-6pm; Sun: 12pm-6pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-6&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Best Buy Mobile Specialty Store&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;972-315-5046&lt;/phone&gt;
+      &lt;postalCode&gt;75067&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;258&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Lewisville&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Lewisville&lt;/longName&gt;
+      &lt;address&gt;2601 S Stemmons Fwy&lt;/address&gt;
+      &lt;address2/&gt;
+      &lt;city&gt;Lewisville&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75067&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;32.999397&lt;/lat&gt;
+      &lt;lng&gt;-96.963219&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Windows Store&lt;/service&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Magnolia Home Theater&lt;/service&gt;
+         &lt;service&gt;Apple Shop&lt;/service&gt;
+         &lt;service&gt;Pacific Kitchen &amp;amp; Home&lt;/service&gt;
+         &lt;service&gt;Hablamos Español&lt;/service&gt;
+         &lt;service&gt;Samsung Experience&lt;/service&gt;
+         &lt;service&gt;LG Experience &lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;214-488-8624&lt;/phone&gt;
+      &lt;postalCode&gt;75067&lt;/postalCode&gt;
+   &lt;/store&gt;
+   &lt;store&gt;
+      &lt;storeId&gt;196&lt;/storeId&gt;
+      &lt;storeType&gt;BigBox&lt;/storeType&gt;
+      &lt;tradeIn&gt;Trade-In - No-receipt&lt;/tradeIn&gt;
+      &lt;name&gt;Mckinney&lt;/name&gt;
+      &lt;longName&gt;Best Buy - Mckinney&lt;/longName&gt;
+      &lt;address&gt;1751 N Central Expy&lt;/address&gt;
+      &lt;address2&gt;Ste C&lt;/address2&gt;
+      &lt;city&gt;McKinney&lt;/city&gt;
+      &lt;region&gt;TX&lt;/region&gt;
+      &lt;fullPostalCode&gt;75070&lt;/fullPostalCode&gt;
+      &lt;country&gt;US&lt;/country&gt;
+      &lt;lat&gt;33.213333&lt;/lat&gt;
+      &lt;lng&gt;-96.639603&lt;/lng&gt;
+      &lt;hours&gt;Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-7; Sun: 11-8&lt;/hours&gt;
+      &lt;hoursAmPm&gt;Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-7pm; Sun: 11am-8pm&lt;/hoursAmPm&gt;
+      &lt;gmtOffset&gt;-5&lt;/gmtOffset&gt;
+      &lt;services&gt;
+         &lt;service&gt;Geek Squad Services&lt;/service&gt;
+         &lt;service&gt;Best Buy Mobile&lt;/service&gt;
+         &lt;service&gt;Best Buy For Business&lt;/service&gt;
+         &lt;service&gt;Apple Shop&lt;/service&gt;
+         &lt;service&gt;Samsung Experience Shop&lt;/service&gt;
+         &lt;service&gt;Electronics Recycling&lt;/service&gt;
+         &lt;service&gt;Car &amp;amp; GPS Installation Services&lt;/service&gt;
+         &lt;service&gt;Magnolia Home Theater&lt;/service&gt;
+      &lt;/services&gt;
+      &lt;phone&gt;972-542-8305&lt;/phone&gt;
+      &lt;postalCode&gt;75070&lt;/postalCode&gt;
+   &lt;/store&gt;
+&lt;/stores&gt;
+</outtemplate>
+        <outTemplateHeader>Date: Sun, 05 Jul 2015 07:28:27 GMT
+Content-Length: 12296
+X-Mashery-Responder: prod-j-worker-lax-04.mashery.com
+Content-Type: text/xml; charset=UTF-8
+Server: thin 1.6.1 codename Death Proof
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>stores</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//stores</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>storeId</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>store/storeId</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>name</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>store/name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>address</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>store/address</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>hours</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>store/hours</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lat</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>store/lat</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lng</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>store/lng</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://api.remix.bestbuy.com/v1/stores($searchCriteria)?apiKey=$key</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

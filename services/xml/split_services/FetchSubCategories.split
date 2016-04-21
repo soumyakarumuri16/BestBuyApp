@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>FetchSubCategories</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>key</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>wwjsa9cmtmjafmzvhncfcc7g</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>categoryId</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>abcat0010000</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;?xml-stylesheet href="/v1/xsl/xml_pretty_printer.xsl" type="text/xsl"?&gt;&lt;categories canonicalUrl="/v1/categories(id=&amp;quot;abcat0010000&amp;quot;)?apiKey=wwjsa9cmtmjafmzvhncfcc7g" currentPage="1" from="1" partial="false" queryTime="0.004" to="1" total="1" totalPages="1" totalTime="0.015"&gt;
+   &lt;category&gt;
+      &lt;id&gt;abcat0010000&lt;/id&gt;
+      &lt;name&gt;Gift Ideas&lt;/name&gt;
+      &lt;active&gt;true&lt;/active&gt;
+      &lt;path&gt;
+         &lt;category&gt;
+            &lt;id&gt;cat00000&lt;/id&gt;
+            &lt;name&gt;Best Buy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0010000&lt;/id&gt;
+            &lt;name&gt;Gift Ideas&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/path&gt;
+      &lt;subCategories&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat140000050035&lt;/id&gt;
+            &lt;name&gt;Capturing Photos &amp;amp; Videos&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat140000050036&lt;/id&gt;
+            &lt;name&gt;Listening to Digital Music&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat140000050037&lt;/id&gt;
+            &lt;name&gt;Computing Made Easy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat140000050039&lt;/id&gt;
+            &lt;name&gt;Simple GPS Navigation&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat140000050040&lt;/id&gt;
+            &lt;name&gt;Playing Video Games&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat140000050041&lt;/id&gt;
+            &lt;name&gt;Watching HDTV&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat140000050042&lt;/id&gt;
+            &lt;name&gt;Enjoying Favorite Movies&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0012000&lt;/id&gt;
+            &lt;name&gt;Him&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0011000&lt;/id&gt;
+            &lt;name&gt;Her&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0013000&lt;/id&gt;
+            &lt;name&gt;Teens&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0014000&lt;/id&gt;
+            &lt;name&gt;Kids&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat84000050001&lt;/id&gt;
+            &lt;name&gt;Anniversaries&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat84000050004&lt;/id&gt;
+            &lt;name&gt;Baby Showers&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat94300050028&lt;/id&gt;
+            &lt;name&gt;Birthdays&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat84000050002&lt;/id&gt;
+            &lt;name&gt;Business Gifts&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat84000050003&lt;/id&gt;
+            &lt;name&gt;Graduations&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat84000050000&lt;/id&gt;
+            &lt;name&gt;Weddings&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0020004&lt;/id&gt;
+            &lt;name&gt;Unique Gifts&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat111900050004&lt;/id&gt;
+            &lt;name&gt;Pink and Red Gifts&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0020006&lt;/id&gt;
+            &lt;name&gt;Prepaid Cards&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat231900050003&lt;/id&gt;
+            &lt;name&gt;eGift Cards&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat253700050028&lt;/id&gt;
+            &lt;name&gt;QP Test Category&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat312700050000&lt;/id&gt;
+            &lt;name&gt;Our Favorite Gift Ideas&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat327600050005&lt;/id&gt;
+            &lt;name&gt;Easter Made Easy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat327600050006&lt;/id&gt;
+            &lt;name&gt;Brunches Made Easy&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat332300050004&lt;/id&gt;
+            &lt;name&gt;Grads Gifting&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat345300050047&lt;/id&gt;
+            &lt;name&gt;Accessorize Their Tech&lt;/name&gt;
+         &lt;/category&gt;
+      &lt;/subCategories&gt;
+   &lt;/category&gt;
+&lt;/categories&gt;
+</outtemplate>
+        <outTemplateHeader>Date: Sun, 28 Jun 2015 03:32:17 GMT
+Content-Length: 3562
+X-Mashery-Responder: prod-j-worker-lax-02.mashery.com
+Content-Type: text/xml; charset=UTF-8
+Server: thin 1.6.1 codename Death Proof
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>subCategories</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//subCategories</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>id</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>category/id</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>subCategories</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>name</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>category/name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>subCategories</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://api.remix.bestbuy.com/v1/categories(id=$categoryId)?apiKey=$key</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>
